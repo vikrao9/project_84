@@ -1,0 +1,91 @@
+body{
+	background-image: url("imagesBg.jpg");
+	background-repeat: no-repeat;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+	position:sticky;
+	top: 0;
+    width: 100%;
+  }
+  
+  .topnav a {
+	float: left;
+	color: #f2f2f2;
+	font-family: cursive;
+	text-align: center;
+	padding: 14px 25px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	background-color: #bbb;
+	color: black;
+  }
+
+  .topnav-right {
+	float: right;
+  }
+
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+  .img_div{
+	float: left;
+	width: 50%;
+	padding: 1px;
+  }
+  .menu_div{
+	float: right;
+	width: 50%;
+	padding: 50px;
+	color: rgb(14, 0, 0);
+	font-size: 25px;
+	font-family: cursive;
+	font-weight: bolder;
+  }
+  #menu_list{
+	float:none;
+	background-color:#f5c71a;
+	color:black; 
+	width: 40%;
+	border: none;
+	margin: 10px 70px;
+  }
+
+  .newRow::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 1.5s 1.5s ease; 
+    text-indent: -200%;
+	opacity: 1;
+	color: rgb(0, 5, 1);
+ }
+
+#im1{
+	width:100px;
+	height: 80px;
+}
+
+#submit_button
+{
+	float: right;
+	margin-top: 10px; 
+	margin-bottom: 20px; 
+	padding: 10px 10px 10px 10px;
+}
+
+input
+{
+	margin: 3px;
+}
